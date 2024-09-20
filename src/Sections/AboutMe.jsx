@@ -5,7 +5,7 @@ import Button from '../Components/Button'; // Ensure this path is correct
 const AboutMe = () => {
   const handleResumeClick = () => {
     console.log("Button clicked");  // Debug log to ensure the function is triggered
-    window.open('/Portfolio/cv_vivek.pdf', '_blank');// Opens the PDF in a new tab
+    window.open('/Portfolio_vivek/cv_vivek.pdf', '_blank');// Opens the PDF in a new tab
   };
 
   return (
