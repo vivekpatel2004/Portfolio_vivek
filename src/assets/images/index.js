@@ -1,5 +1,5 @@
 import heroImg from './heroImg.png'
-import ahmar from './ahmar.jpg'
+
 import ejs from './icons8-ejs-48.png'
 import htmll from './html.png'
 import csss from './social.png'
@@ -19,10 +19,24 @@ import project2 from './poject2.png'
 import project3 from './project3.png'
 import CPI from './CPI.png'
 import SRMU from './SRMU.png'
-
+import SnapDiet from './SnapDite.png'
+import Hotel from './Hotel.png'
+import TODO from './To-do_list.png'
+import School  from './School_add.png'
+import Python from './pyhon.png'
+import Flask from './flask.png'
+import Api from './api.png'
+import Sql from './sql.png'
+import Monogo from './mongo.png'
+import Docker from './Docker.png'
+import Aws from './aws.png'
+import Vercel from './vercel.png'
+import tailwind from './tailwind.png'
+import  text from './AI-text.png'
+import FastApi from './fastapi.svg'
 export {
     heroImg,
-    ahmar,
+   
     htmll,
     csss,
     react_js,
@@ -42,4 +56,19 @@ export {
     project3,
     CPI,
     SRMU,
+    SnapDiet,
+    Hotel,
+    TODO,
+    School,
+    Python,
+    Flask,
+    Api,
+    Monogo,
+    Sql,
+    Docker,
+    Aws,
+    Vercel,
+    tailwind,
+    text,
+    FastApi,
 }

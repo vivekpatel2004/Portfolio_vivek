@@ -1,17 +1,13 @@
 // Social.jsx
 
-import React from 'react';
+import React from "react";
 
 const Social = ({ Icon, url }) => (
   <div
-    onClick={() => {
-      if (url) {
-        window.open(url,);  // Open the URL in a new tab
-      }
-    }}
+    onClick={() => url && window.open(url, "_blank", "noopener,noreferrer")}
     className="bg-blue-500 h-[50px] w-[50px] rounded-full flex justify-center items-center hover:bg-blue-600 cursor-pointer hover:scale-[1.2] transition-transform"
   >
-    {Icon && <Icon size={30} />}  {/* Render the icon */}
+    <Icon size={30} color="white" />
   </div>
 );
 
