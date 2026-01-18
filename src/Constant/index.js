@@ -107,8 +107,8 @@ export const projects = [
     title: "Royal Hotel",
     content:
       "Developed a full-stack hotel booking platform with user login, dashboard, room listings, and booking functionality using React, Node.js, and MongoDB for real-time data storage.",
-
     href: Hotel,
+    link: "https://phoenicia-hotel.vercel.app/",
     tech: ["React JS", "Node JS", "Express JS", "MongoDB"],
   },
   {
@@ -116,7 +116,7 @@ export const projects = [
     content:
       "Built an AI-powered food recognition system using a CNN model to provide food predictions, nutritional values, and recipe suggestions through a React frontend and FastAPI backend.",
     href: SnapDiet,
-    link: "#",
+    link: "https://github.com/vivekpatel2004/SnapDiet",
     tech: ["React JS", "FastAPI", "Python", "CNN", "API"],
   },
   {
@@ -124,7 +124,7 @@ export const projects = [
     content:
       "Created an NLP-based summarization app leveraging transformer models for text compression. Integrated FastAPI backend with Hugging Face models and deployed the frontend via Vercel with environment-based configuration.",
     href: text,
-    link: "#",
+    link: "https://ai-text-summarizer-gamma.vercel.app/",
     tech: ["React", "FastAPI", "Transformers", "Hugging Face", "Docker", "NLP"],
   },
   {
@@ -132,7 +132,7 @@ export const projects = [
     content:
       "Full-stack task management app with login system and CRUD operations using React frontend, Flask backend, and SQL database for persistent task storage.",
     href: TODO,
-    link: "#",
+    link: "https://github.com/vivekpatel2004/To-do-List",
     tech: ["React JS", "Flask", "Python", "SQL", "CRUD", "Auth"],
   },
   {
@@ -140,7 +140,7 @@ export const projects = [
     content:
       "Full-stack school management system featuring image upload and complete CRUD operations for school records using React frontend, Node.js backend, and SQL database.",
     href: School,
-    link: "#",
+    link: "https://github.com/vivekpatel2004/School_Add",
     tech: ["React JS", "Node JS", "Express JS", "SQL", "CRUD", "File Upload"],
   },
 
