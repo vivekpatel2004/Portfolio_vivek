@@ -34,6 +34,7 @@ import Vercel from './vercel.png'
 import tailwind from './tailwind.png'
 import  text from './AI-text.png'
 import FastApi from './fastapi.svg'
+import Taskflow from './Taskflow.png'
 export {
     heroImg,
    
@@ -71,4 +72,5 @@ export {
     tailwind,
     text,
     FastApi,
+    Taskflow
 }

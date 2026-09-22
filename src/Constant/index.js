@@ -19,6 +19,7 @@ import {
   project2,
   SnapDiet,
   Hotel,
+
   TODO,
   School,
   Python,
@@ -32,6 +33,7 @@ import {
   tailwind,
   text,
   FastApi,
+  Taskflow,
 } from "../assets/images";
 export const navLinks = [
   { label: "Home", href: "#home" },
@@ -103,6 +105,14 @@ export const skills = [
 ];
 
 export const projects = [
+  {
+    title: "TaskFlow",
+    content:
+      "Developed a full-stack personal task management platform with user authentication, dashboard, task creation, task tracking, task statistics, profile management, and CRUD functionality using React, Node.js, Express.js, and MySQL.",
+    href: Taskflow,
+    link: "https://taskflow-app-three-ruby.vercel.app/",
+    tech: ["React JS", "Node JS", "Express JS", "MySQL"],
+  },
   {
     title: "Royal Hotel",
     content:
